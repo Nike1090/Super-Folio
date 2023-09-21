@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+    <head> 
+        <link rel="stylesheet" href="../css/styles.css">
+        <link rel="stylesheet" href="../css/com.css">
+        <link rel="stylesheet" href="../css/BlogCss.css">
+        <link rel="icon" type="image/x-icon" href="/iMAGES/49320.png">
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+        <meta charset="utf-8">
+        <title></title>
+    </head>
+    <body>
+        <header class="header">
+            <nav class="navbar">
+               <a href="../index.html" class="logo">
+                   <img src="../iMAGES/49320.png" class="img-logo" width="55px" height="55px">
+            </a>
+                <ul class="nav-set">
+                    <li class="nav-item"><a href="blog.html" class="nav-link">BLOG</a></li>
+                    <li class="nav-item"><a href="about.html" class="nav-link">ABOUT</a></li>
+                    <li class="nav-item"><a href="projects.html" class="nav-link">PROJECTS</a></li>
+                    <li class="nav-item"><a href="contact.html" class="nav-link">CONTACT</a></li>
+                </ul>
+                <div class="hamburger">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </nav>
+        </header>
+        <div class="article">
+            <h2 onclick="toggleSummary('summary1')">What is HTML?</h2>
+            
+            <button onclick="toggleSummary('summary1')">Learn more</button>
+            <div id="summary1" class="article-summary">
+                <p>HTML (Hypertext Markup Language) is a language used behind the scenes of every website. HTML uses tags to form the content in a visible way to display on a web page. It is relatively easy to learn and does not require lots of time to understand. It includes everything from your headers, spaces and paragraphs on your web page.
+
+                    HTML can be as simple as writing this blog, but it is written in specific tags so the browser can translate the content into a visible form. </p>
+                <audio controls>
+                    <source src="https://content.libsyn.com/p/d/f/8/df830279584e02f9/Syntax158.mp3?c_id=45990290&cs_id=45990290&response-content-type=audio%2Fmpeg&Expires=1695284048&Signature=I3TW0k9G0MpNjRRbkxELY0YevrEN-adBrfZKTn1cgM5E-22Fx-z-vKf9CWiZrizZPcRxHhflLl~GTYktVG609IELGePTkfEUf4LNweSc2zpGXtaxIQoJV04x1GxRD3PwKO7~b2kF95D0~1-zFPiV9F3GOm8yIf8XBxMMHXMvcsOnBK269ttycrp6VqqZN5YW-B077kMstBvRkK1k0VaPtO34MI25119tD408UqdI3CI-fQPJBNSWseJ3HsUMvcafVxnMC4sXtZZKWGkuOyRK4ZvTbp~CLmwZqGqx-KbsW0sc8IMgwcQfieZzRn-Mfmf~byGepSItOpbIz3UXxBC1kw__&Key-Pair-Id=K1YS7LZGUP96OI" type="audio/mpeg">
+                </audio>
+                <video controls="true">
+                    <source src="../videos/What is HTML_.mp4" type="video/mp4">
+                </video>
+            </div>
+            
+        </div>
+    
+        <div class="article">
+            <h2>What is an Event Loop in JavaScript?
+            </h2>
+            
+            <button onclick="toggleSummary('summary2')">Learn more</button>
+            <div id="summary2" class="article-summary">
+                <p>In computer science, the event loop is a programming construct or design pattern that waits for and dispatches events or messages in a program.</p>
+            </div>
+            
+        </div>
+    
+        <div class="article">
+            <h2>Software Languages & Authors</h2>
+            <!-- This article does not have a summary, audio, or video -->
+            <table class=".langauth">
+                <tr>
+                    <th>Language</th>
+                    <th>Author</th>
+                </tr>
+                <tr>
+                    <td>Javascript</td>
+                    <td>Brendan Eich
+                    </td>
+                </tr>
+                <tr>
+                    <td>Java</td>
+                    <td>James Gosling</td>
+                </tr>
+            </table>
+        </div>
+
+    </body>
+    <script src="/scripts/script.js"></script>
+</html>
